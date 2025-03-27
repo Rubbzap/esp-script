@@ -4,7 +4,7 @@ local runService = game:GetService("RunService")
 local userInputService = game:GetService("UserInputService")
 
 local ESP_Enabled = true
-local ESP_Range = 1000
+local ESP_Range = 999999
 local ESP_RangeOptions = { 500, 1000, 999999 }
 local ESP_RangeIndex = 2
 local ESP_Objects = {}
