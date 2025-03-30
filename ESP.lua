@@ -30,7 +30,7 @@ local function showPopup(text, color)
     popupLabel.Text = text
     popupLabel.TextColor3 = color or Color3.fromRGB(255, 255, 255)
     popupLabel.Visible = true
-    task.delay(0.5, function()
+    task.delay(1, function()
         popupLabel.Visible = false
     end)
 end
