@@ -68,7 +68,7 @@ local function addESP(player)
         local billboard = Instance.new("BillboardGui")
         billboard.Parent = character:FindFirstChild("Head") or character:FindFirstChild("HumanoidRootPart")
         billboard.Size = UDim2.new(0, 200, 0, 50)
-        billboard.StudsOffset = Vector3.new(0, 5, 0)
+        billboard.StudsOffset = Vector3.new(0, 4.5, 0)
         billboard.AlwaysOnTop = true
 
         local nameLabel = Instance.new("TextLabel")
