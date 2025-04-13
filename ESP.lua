@@ -119,7 +119,7 @@ end)
 -- 🔹 กดปุ่ม N เพื่อเปิด-ปิด ESP
 userInputService.InputBegan:Connect(function(input, gameProcessed)
     if gameProcessed then return end
-    if input.KeyCode == Enum.KeyCode.N then
+    if input.KeyCode == Enum.KeyCode.RightALT then
         ESP_Enabled = not ESP_Enabled
         showPopup("ESP: " .. (ESP_Enabled and "ON" or "OFF"), ESP_Enabled and Color3.fromRGB(0, 200, 0) or Color3.fromRGB(200, 0, 0))
 
